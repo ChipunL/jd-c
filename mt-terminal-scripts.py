@@ -127,7 +127,7 @@ def getserverkey():
             try:
                
                 print("请选择是否开启server酱推送!\n")
-                yesornot=serverkey("是否开启server酱推送(y/n):\n")
+                yesornot=serverkey:\n("是否开启server酱推送(y/n):\n")
                 if type(yesornot)==str and  yesornot=='y':
                     print("获取serverkey请访问:https://sct.ftqq.com/\n")
                     serverkey=input("请输入serverkey:\n")
@@ -158,7 +158,7 @@ def getpushPlusToken():
             try:
                
                 print("请选择是否开启pushPlus推送\n")
-                yesornot2=pushPlusToken("是否开启pushPlus推送(y/n):\n")
+                yesornot2=pushPlusToken:\n("是否开启pushPlus推送(y/n):\n")
                 if type(yesornot2)==str and  yesornot2=='y':
                     print("获取pushPlusToken请访问:https://www.pushplus.plus/\n")
                     pushPlusToken=input("请输入pushPlusToken:\n")
